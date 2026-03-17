@@ -1,0 +1,89 @@
+{
+  "projectType": "general",
+  "projectName": "Awesome Gemini Prompts",
+  "projectDescription": "A curated collection of prompts, system prompts, jailbreaks, and role-play personas for Google's Gemini AI models.",
+  "theme": "palm",
+  "primaryColor": "#295fd7",
+  "lightColor": "#08d5bc",
+  "darkColor": "#cbe0f6",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["introduction", "quickstart"]
+          },
+          {
+            "group": "Prompt Writing",
+            "pages": [
+              "guides/best-practices",
+              "guides/chinese-language-tips",
+              "guides/prompt-structure"
+            ]
+          },
+          {
+            "group": "Prompts",
+            "pages": [
+              "prompts/overview",
+              "prompts/thinking-chain",
+              "prompts/pdca-ask-tutor",
+              "prompts/gemini-system-prompt",
+              "prompts/copilot-examples"
+            ]
+          },
+          {
+            "group": "Specialized Personas",
+            "pages": [
+              "personas/overview",
+              "personas/xiaohongshu-monetization",
+              "personas/antigravity-coding-assistant",
+              "personas/other-personas"
+            ]
+          },
+          {
+            "group": "Jailbreaks",
+            "pages": [
+              "jailbreaks/overview",
+              "jailbreaks/gemini3-jailbreak",
+              "jailbreaks/badbard"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "References",
+            "pages": [
+              "resources/gemini-workspace-guide",
+              "resources/community",
+              "resources/faq"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Curated collection of Gemini AI prompts for various use cases",
+    "Thinking chain and reasoning prompts for deep analysis",
+    "Specialized role-play personas (tutors, business coaches, coding assistants)",
+    "Jailbreak and uncensor prompts for Gemini/Bard",
+    "Official Gemini system prompts and configuration examples",
+    "Bilingual content with Chinese language support tips",
+    "Prompts for Copilot, writing, research, coding, and brainstorming"
+  ],
+  "publicApiSurface": [
+    "Thinking Chain Engine prompt (思维链引擎)",
+    "PDCA-ASK Learning Tutor persona (叮当猫·清静书斋)",
+    "Gemini 2.5 System Prompt",
+    "Gemini3 Jailbreak (Director's method)",
+    "BardBard jailbreak prompt",
+    "Google Antigravity coding assistant system prompt",
+    "Xiaohongshu monetization expert persona (小红书变现达人)",
+    "Copilot use-case examples (study plans, travel, email, coding)"
+  ]
+}
